@@ -2,7 +2,7 @@
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "dots",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.connecting-dots.dots",
   "build": {
     "frontendDist": "../out",
     "devUrl": "http://localhost:3000",
