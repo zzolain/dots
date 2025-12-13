@@ -106,6 +106,9 @@ importers:
       '@tauri-apps/cli':
         specifier: ^2.9.6
         version: 2.9.6
+      '@tauri-apps/plugin-updater':
+        specifier: ^2.9.0
+        version: 2.9.0
       '@types/react':
         specifier: ^19
         version: 19.2.2
@@ -1091,6 +1094,9 @@ packages:
     resolution: {integrity: sha512-3xDdXL5omQ3sPfBfdC8fCtDKcnyV7OqyzQgfyT5P3+zY6lcPqIYKQBvUasNvppi21RSdfhy44ttvJmftb0PCDw==}
     engines: {node: '>= 10'}
     hasBin: true
+
+  '@tauri-apps/plugin-updater@2.9.0':
+    resolution: {integrity: sha512-j++sgY8XpeDvzImTrzWA08OqqGqgkNyxczLD7FjNJJx/uXxMZFz5nDcfkyoI/rCjYuj2101Tci/r/HFmOmoxCg==}
 
   '@tokenizer/inflate@0.3.1':
     resolution: {integrity: sha512-4oeoZEBQdLdt5WmP/hx1KZ6D3/Oid/0cUb2nk4F0pTDAWy+KCH3/EnAkZF/bvckWo8I33EqBm01lIPgmgc8rCA==}
@@ -4992,6 +4998,10 @@ snapshots:
       '@tauri-apps/cli-win32-arm64-msvc': 2.9.6
       '@tauri-apps/cli-win32-ia32-msvc': 2.9.6
       '@tauri-apps/cli-win32-x64-msvc': 2.9.6
+
+  '@tauri-apps/plugin-updater@2.9.0':
+    dependencies:
+      '@tauri-apps/api': 2.9.1
 
   '@tokenizer/inflate@0.3.1':
     dependencies:
