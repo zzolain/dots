@@ -42,7 +42,7 @@
       "endpoints": [
         "https://github.com/zzolain/dots/releases/latest/download/update.json"
       ],
-      "pubkey": "./tauri.key.pub"
+      "pubkey": "./dots.key.pub"
     }
   }
 }
