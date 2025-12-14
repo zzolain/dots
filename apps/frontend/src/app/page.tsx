@@ -8,7 +8,7 @@ export default function Home() {
         <div className={styles.intro}>
           <h1>{HELLO_MESSAGE}</h1>
           <p>WE ARE CONNECTING DOTS</p>
-          <p>(UPDATED)</p>
+          <p>(UPDATED!!!!)</p>
         </div>
       </main>
     </div>
